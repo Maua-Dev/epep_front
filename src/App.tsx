@@ -1,13 +1,8 @@
-import './App.css'
-import Home from './pages/home.tsx'
+import TelaInicial from './pages/telaInicial'
 
-export default function App() {
-  return (
-    
-    <Home></Home>
-    
-    
-  )
+function App() {
+  return <TelaInicial />
 }
 
+export default App
 
