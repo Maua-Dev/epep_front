@@ -1,5 +1,6 @@
 import fotoPessoas from "../../src/assets/people.png"
 import Footer from "../componets/footer"
+import Hero from "../componets/hero"
 import { FaInstagram } from "react-icons/fa";
 import { PiTwitterLogoThin } from "react-icons/pi";
 import { SlSocialLinkedin } from "react-icons/sl";
@@ -12,7 +13,9 @@ import { BsTelephone } from "react-icons/bs";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen flex flex-col overflow-hidden">
+    <>
+    <Hero />
+    <div id="contato" className="relative min-h-screen flex flex-col overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center grayscale"
               style={{ backgroundImage: `url(${fotoPessoas})` }}>
         </div> 
@@ -102,8 +105,6 @@ export default function Home() {
         </div>
        <Footer></Footer>
     </div>
-       
-       
-    
+    </>
   )
 }
