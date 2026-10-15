@@ -6,12 +6,20 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsTelephone } from "react-icons/bs";
-
+import Navbar from "../componets/navbar"
+import MainPage from "../componets/mainpage"
 
 
 
 export default function Home() {
   return (
+    <>
+      <div className="relative">
+        <Navbar />
+        <MainPage />
+      </div>
+    
+
     <div className="relative min-h-screen flex flex-col overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center grayscale"
               style={{ backgroundImage: `url(${fotoPessoas})` }}>
@@ -102,7 +110,7 @@ export default function Home() {
         </div>
        <Footer></Footer>
     </div>
-       
+       </>
        
     
   )
