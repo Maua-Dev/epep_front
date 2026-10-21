@@ -2,7 +2,7 @@ import bolinha from '../assets/bolinha.png'
 
 export default function Navbar() {
   return (
-    <>
+    <main className=''>
       <div className="absolute top-4 right-4 z-20">
         <img className="h-16 w-16 rounded-full object-cover" src={bolinha} alt="" />
       </div>
@@ -16,6 +16,6 @@ export default function Navbar() {
         <a href="#conteudo" className="text-xs uppercase text-white transition-transform duration-300 hover:scale-110">Conteúdo</a>
         <a href="#contato" className="text-xs uppercase text-white transition-transform duration-300 hover:scale-110">Contato</a>
       </nav>
-    </>
+    </main>
   )
 }
