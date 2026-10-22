@@ -10,8 +10,10 @@ import { BsTelephone } from "react-icons/bs";
 
 
 
+
 export default function Home() {
   return (
+
     <div className="relative min-h-screen flex flex-col overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center grayscale"
               style={{ backgroundImage: `url(${fotoPessoas})` }}>
