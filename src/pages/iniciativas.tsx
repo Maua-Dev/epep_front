@@ -4,7 +4,7 @@ import { Calendar, Users, FileText, ArrowUpRight } from 'lucide-react'
 export default function Iniciativas (){
   return(
     <main className='relative min-h-screen overflow-hidden'>
-      <img src={areas} alt="" className='fixed inset-0 -z-10 h-full w-full object-cover' />
+      <img src={areas} alt="" className='absolute top-2 h-full w-full bg-[length:100%_100%]' />
       
       <div className='mx-auto flex max-w-8xl flex-col gap-8 px-16 py-12'>
 
