@@ -92,7 +92,7 @@ export default function Home() {
               <div className="absolute right-6 top-1/2 -translate-y-1/2 flex flex-col gap-4">
                 <a className="w-12 h-12 rounded-full border border-white flex items-center justify-center hover:bg-white hover:text-orange-700 hover:cursor-pointer duration-[400ms] hover:scale-108 transition-all text-white">
                   <CiLocationOn size={28}/>
-                </a>
+                </a> 
                 <a className="w-12 h-12 rounded-full border border-white flex items-center justify-center hover:bg-white hover:text-orange-700 hover:cursor-pointer duration-[400ms] hover:scale-108 transition-all text-white">
                     <MdOutlineEmail size={28} />
                 </a>
@@ -105,7 +105,7 @@ export default function Home() {
        <Footer></Footer>
     </div>
        
-       
+                          
     
   )
 }

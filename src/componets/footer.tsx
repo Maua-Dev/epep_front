@@ -6,8 +6,8 @@ export default function footer() {
           © 2026 Entidade Acadêmica. Todos os direitos reservados.
         </span>
         <div className="flex gap-6">
-          <a href="#" className="font-jost text-white text-sm hover:underline">Termos</a>
-          <a href="#" className="font-jost text-white text-sm hover:underline">Privacidade</a>
+          <a href="#Termos" className="font-jost text-white text-sm hover:underline">Termos</a>
+          <a href="#Privacidade" className="font-jost text-white text-sm hover:underline">Privacidade</a>
         </div>
       </footer>
 
